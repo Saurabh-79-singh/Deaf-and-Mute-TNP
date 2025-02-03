@@ -20,7 +20,7 @@ nav ul {
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 20px;
 }
 
@@ -30,7 +30,7 @@ nav ul li {
 
 nav ul li a {
     color: white;
-    text-decoration: none;
+    text-decoration: ;
     font-size: 18px;
     padding: 10px 15px;
     transition: 0.3s;
@@ -77,7 +77,7 @@ section:hover {
 }
 
 .footer {
-    background: #0073e6;
+    background: #e9e2a085,#dbb69f;
     color: white;
     text-align: center;
     padding: 20px;
