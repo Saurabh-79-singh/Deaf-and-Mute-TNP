@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deaf & Mute Learning</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+      
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#learn">Learn</a></li>
+                <li><a href="#sign-converter">Sign Language</a></li>
+                <li><a href="#speech">Voice-to-Text</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <div class="left-up">
+            <section id="home">
+                <h2>Empowering Learning for All</h2>
+                <p>Interactive learning for deaf and mute students.</p>
+                <button onclick="showLearningMaterial()">Start Learning</button>
+            </section>
+        </div>
+        <div class="right-down">
+            <section id="speech">
+                <h2>Voice-to-Text</h2>
+                <button onclick="startSpeechRecognition()">Start Speaking</button>
+                <p id="speechText"></p>
+            </section>
+        </div>
+        <div class="right-up">
+            <section id="learn">
+                <h2>Learn Alphabets & Numbers</h2>
+                <button onclick="showLearningMaterial()">Start Learning</button>
+                <div id="learning-content"></div>
+            </section>
+        </div>
+        <div class="left-down">
+            <section id="sign-converter">
+                <h2>Text to Sign Language</h2>
+                <input type="text" id="textInput" placeholder="Enter text">
+                <button onclick="convertToSign()">Convert</button>
+                <div id="signOutput"></div>
+            </section>
+        </div>
+      
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Empower Learning. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
